@@ -29,19 +29,7 @@ module.exports = {
               loader: 'css-loader',
               options: { importLoaders: 1 },
             },
-            {
-              loader: 'postcss-loader',
-              options: {
-                plugins: function() {
-                  return [
-                    require('autoprefixer'),
-                    require('postcss-import'),
-                    require('postcss-flexbugs-fixes'),
-                    require('postcss-nested')
-                  ]
-                }
-              }
-            }
+            'postcss-loader'
           ],
         }),
       },

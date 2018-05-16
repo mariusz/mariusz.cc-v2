@@ -11,7 +11,6 @@
     "build": "webpack --bail -p"
   },
   "devDependencies": {
-    "autoprefixer": "^8.5.0",
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
